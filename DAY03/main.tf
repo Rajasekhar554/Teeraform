@@ -33,3 +33,5 @@ resource "aws_s3_bucket" "Main1234" {
     }
 
 }
+
+Note :: create s3 bucket through backend
