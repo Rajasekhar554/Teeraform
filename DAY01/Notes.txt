@@ -1,0 +1,36 @@
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+sudo yum -y install terraform
+
+
+terraform -v   -- to verify terraform is installed or whci version is installed
+
+after wiriting main.tf
+
+1) terraform init  -- Initialise the 
+2) terraform validate -- It will check is there any syntax issue or not
+3) terraform plan -- It's lika a dry run what are the resources are creating/adding and what are the resource are deleting befot applying terraform plan
+
+
+
+aws configure
+
+
+aws configure -bash: aws: command not found then
+
+sudo yum install -y unzip
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+
+aws --version
+
+then run aws configure
+
+4) terraform apply   -- to create the resiurces
+5) terraform destroy  -- to delete the resoureces
+
