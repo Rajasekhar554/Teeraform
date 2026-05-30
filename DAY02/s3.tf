@@ -14,12 +14,12 @@ provider "aws" {
       region = "ap-south-1"
 }
 
-resource "aws_s3_bucket" "my_first_bucket" {
-   bucket = "my_first_bucket_Practice"
+resource "aws_s3_bucket" "myfirstbucket79891" {
+   bucket = "rajasekhr-2026-my-first-practice-s3"
 
 
      tags = {
-          Name = "Practice"
+          Name = "practice"
           Env = "Dev"
 }
 
